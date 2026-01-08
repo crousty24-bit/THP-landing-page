@@ -1,0 +1,29 @@
+:root {
+  --bs-primary: #0b132b ;
+  --bs-secondary: #1c2541;
+  --bs-success: #3a7ca5;
+  --bs-info: #b4adea;
+  --bs-warning: #b45309;
+  --bs-light: #f7f3e8;
+  --bs-border-radius: 0.75rem;
+  --bs-primary-rgb: 11, 19, 43;
+  --bs-secondary-rgb: 28, 37, 65;
+  --bs-success-rgb: 58, 124, 165;
+  --bs-info-rgb: 180, 173, 234;
+  --bs-warning-rgb: 180, 83, 9;
+  --bs-light-rgb: 247, 243, 232;
+}
+
+body {
+  background-image: linear-gradient(180deg, #1c2541, #3a7ca5, #b4adea);
+}
+
+.bg-light {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+}
+
+/*same space for all sections*/
+.section-spacing {
+  padding: 4rem 0;
+}
